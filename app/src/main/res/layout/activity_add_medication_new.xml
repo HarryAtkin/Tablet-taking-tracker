@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".add_Medication_New">
+
+    <Button
+        android:id="@+id/chooseTime"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="Select Time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <EditText
+        android:id="@+id/medicine_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name of Medication"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122" />
+
+    <EditText
+        android:id="@+id/dosage"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Dosage"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.332"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+    <Spinner
+        android:id="@+id/chooseDosage"
+        android:layout_width="126dp"
+        android:layout_height="42dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <LinearLayout
+        android:layout_width="405dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="240dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/dayMonday"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:text="M"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/dayTuesday"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:text="T"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/dayWednesday"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:text="W"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/dayThursday"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:text="T"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/dayFriday"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:text="F"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/daySaturday"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:text="S"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/daySunday"
+            android:layout_width="58dp"
+            android:layout_height="55dp"
+            android:text="S"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_Time"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="Add time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
+
+    <Spinner
+        android:id="@+id/dropdownTime"
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451" />
+
+    <Button
+        android:id="@+id/removeTime"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="Remove time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="Confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.959" />
+</androidx.constraintlayout.widget.ConstraintLayout>

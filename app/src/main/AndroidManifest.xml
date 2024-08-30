@@ -13,16 +13,22 @@
         android:theme="@style/Theme.TabletTracker"
         tools:targetApi="31">
         <activity
-            android:name=".Remove_Edit_Page"
+            android:name=".Add_Medication_Prescription"
             android:exported="false" />
         <activity
-            android:name=".Add_Page"
+            android:name=".add_Medication_New"
+            android:exported="false" />
+        <activity
+            android:name=".Remove_Edit_Page"
             android:exported="false" />
         <activity
             android:name=".Sign_up"
             android:exported="false" />
         <activity
             android:name=".Home_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Prescription"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
